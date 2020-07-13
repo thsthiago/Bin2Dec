@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bin2Dec</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    html,body{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eceff1;
+    }
+
+    #main{
+      background: #212121 ;
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+    }
+
+    #main h1{
+      text-align: center;
+    }
+
+    #main h2{
+      font-size: 20px;
+      font-weight: normal;
+      margin: 10px 0 20px 0;
+    }
+
+    .w100{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      align-items: center;
+    }
+
+    .w100 input{
+      width: 70%;
+      padding: 10px;
+      outline: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    #main input[type=submit]{
+      display: block;
+      margin: 20px auto;
+      padding: 10px;
+      border: none;
+      background: #414040;
+      width: 100px;
+      border-bottom: 5px solid #2b2c2c;
+      cursor: pointer;
+      color: white;
+      outline: none;
+    }
+
+    #main input[type=submit]:hover{
+      background: #181717;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div id="main">
+    <h1>Bin2Dec</h1>
+    <h2>Conversor de binario para decimal</h2>
+
+    <div class="w100">
+      <label for="binario">Binario</label>
+      <input type="text" name="binario" placeholder="Número em binario">
+    </div><!--w100-->
+
+    <div class="w100">
+      <label for="decimal">Decimal</label>
+      <input type="text" name="decimal" placeholder="Número em decimal">
+    </div><!--w100-->
+
+    <input type="submit" name="acao" value="Converter">
+  </div><!--main-->
+  <script src="main.js"></script>
+</body>     
+</html>
