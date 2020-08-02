@@ -1,6 +1,6 @@
 # Bin2Dec
 
-Projeto desenvolvido com a ideia do repositorio: [App Ideas Collection](https://github.com/florinpop17/app-ideas)
+Projeto desenvolvido com a ideia do repositório: [App Ideas Collection](https://github.com/florinpop17/app-ideas)
 
 **_Nivel_**: 1-Iniciante
 
